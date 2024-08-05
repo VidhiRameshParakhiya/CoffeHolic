@@ -1054,9 +1054,9 @@ padding: 10px 5px 10px 15px;
         width: 155px;
         margin:0 0 15px 0;
     }
-    #Feature{
+    /* #Feature{
         justify-content: space-between;
-    }
+    } */
     
     #product1 .pro{
         width: 100%;
@@ -1106,7 +1106,7 @@ padding: 10px 5px 10px 15px;
 
     /* blog page */
     #blog{
-        padding: 100px -20px 0 20px;
+        padding: 100px 20px 0 20px;
     }
 
     #blog .blog-box{
