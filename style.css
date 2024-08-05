@@ -169,7 +169,7 @@ color: white;
     background-color: transparent;
     border: 0;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 18px;
     text-decoration:solid;
     color: rgb(250, 109, 27);
     padding: 14px 80px 14px 65px;
@@ -523,249 +523,7 @@ width: 100%;
 text-align: center;
 }
 
-/* MEDIA QUERY (medium devices) */
-@media (max-width:799px){
-    .section-p1{
-        padding: 40px 40px;
-    }
-#navbar{
-    display: flex;
-    align-items: flex-start;
-    flex-direction: column;
-    justify-content: flex-start;
-    position: fixed;
-    top: 0 ;
-    right: -300px;
-    height: 100vh;
-    width: 300px;
-    background-color: #fa9e34;
-    box-shadow: 0 40px 60px rgba(0,0,0,0.1);
-    padding: 80px 0 0 10px;
-    transition: 0.3s; 
-}
-#navbar.active{
-    right: 0px;
 
-}
-#navbar li{
-    margin-bottom: 25px;
-    color: white;
-}
-/* in short screen we are making visible  cart and hamburger sign */
-#mobile{
-    display: flex;
-    align-items: center;
-}
-
-/* changing color in mobile view of cart and hamburger */
-#mobile i{
-    color:#fff;
-    font-size:24px ;
-    padding-left: 20px;
-}
-/* close button on nabar in mobile vie */
-#close{
-    display: initial;
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    color: white;
-    font-size: 24px;
-}
-#lg-bag{
-    display: none;
-}
-#hero{
-    height: 70vh;
-    padding: 0 80px;
-    background-position: top 30% right 30%;
-    
-}
-#Feature{
-    justify-content: center;
-}
-#Feature .fe-box{
-    margin:15px 15px;
-}
-#product1 .pro-container{
-    justify-content: center;
-    
-    }
-    #product1 .pro{
-        margin:15px
-    }
-    
-    #sm-banner .banner-box{
-        min-width: 100%;
-        height: 30vh;
-    
-    }
-    #banner3{
-        padding: 0 40px;
-    }
-    #banner3 .banner-box{
-        width: 28%;
-    
-    }
-    
-    #Newsletter .form{
-        width: 70%;
-    
-    }
-    /* Contact Page */
-    #form-details{
-        padding: 40px;
-    }
-    #form-details form{
-        width: 50%;
-    }
-
-}
-
-/* MEDIA QUERY Small devices */
-@media (max-width:477px){
-    .section-p1{
-        padding: 20px;
-    }
-    #header{
-        padding: 10px 30px;
-        
-    }
-    #hero{
-        background-position: 55%;
-        padding:0 20px ;  
-        
-    }
-    h2{
-        font-size: 32px;
-    }
-    h1{
-        font-size: 38px;
-    }
-    #Feature .fe-box{
-        width: 155px;
-        margin:0 0 15px 0;
-    }
-    #Feature{
-        justify-content: space-between;
-    }
-    
-    #product1 .pro{
-        width: 100%;
-        }
-        
-    #banner{
-        height: 40vh;
-    }
-     #sm-banner .banner-box{
-        height: 40vh;
-    
-    }
-   #banner3{
-    padding: 0 20px;
-   }
-   #banner3 .banner-box{
-    width: 100%;
-   }
-   #Newsletter .form{
-    width: 100%;
-
-}
-#Newsletter{
-    padding: 40px 20px;
-}
-footer .copyright{
-    text-align: start;
-}
-
-
-/* Singleproduct page */
-#prodetails{
-display: flex;
-flex-direction: column;
-}
-
-#prodetails .single-pro-image{
-width: 100%;
-margin-right: 0px;
-}
-
-#prodetails .single-pro-details{
-    width: 100%;
-    }
-
-
-
-/* blog page */
-#blog{
-    padding: 100px 20px 0 20px;
-}
-
-#blog .blog-box{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    
-}
-#blog .blog-img{
-    width: 100%;
-    margin-right: 0px;   
-    margin-bottom: 30px; 
-}
-#blog .blog-details{
-    width: 100%;
-}
-/* About Page */
-#about-head{
-    flex-direction: column;
-}
-#about-head img{
-    width:100%;
-    margin-bottom:20px;
-}
-#about-head div{
-    padding-left: 0px;
-}
-#about-app .video{
-    width:100%;
-}
-/* Contact Page */
-    #contact-details{
-        flex-direction: column;
-    }
-    #contact-details .details{
-    width: 100%;
-    margin-bottom: 30px;
-    }
-    #contact-details .map{
-    width: 100%;
-    }
-    #form-details{
-        margin: 10px;
-        padding: 30px 10px;
-        flex-wrap: wrap;
-    }
-    #form-details form{
-    width: 100%;
-    margin-bottom: 30px;
-
-    }
-    
-
-/* Cart Page */
-#cart-add{
-    flex-direction: column;
-}
-#coupon{
-    width:100%;
-}
-#subtotal{
-    width:100%;
-    padding: 20px;
-}
-
-
-}
 
 /* -------------Shop page -----------------------------*/
 #page-header{
@@ -1170,4 +928,249 @@ padding: 10px 5px 10px 15px;
     border:1px solid #ffff;
     padding: 10px;
     font-size: 13px;
+}
+
+
+/* MEDIA QUERY (medium devices) */
+@media (max-width:799px){
+    .section-p1{
+        padding: 40px 40px;
+    }
+#navbar{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0 ;
+    right: -300px;
+    height: 100vh;
+    width: 300px;
+    background-color: rgb(37, 17, 4);
+    box-shadow: 0 40px 60px rgba(0,0,0,0.1);
+    padding: 80px 0 0 10px;
+    transition: 0.3s; 
+}
+#navbar.active{
+    right: 0px;
+
+}
+#navbar li{
+    margin-bottom: 25px;
+    color: white;
+}
+/* in short screen we are making visible  cart and hamburger sign */
+#mobile{
+    display: flex;
+    align-items: center;
+}
+
+/* changing color in mobile view of cart and hamburger */
+#mobile i{
+    color:#fff;
+    font-size:24px ;
+    padding-left: 20px;
+}
+/* close button on nabar in mobile vie */
+#close{
+    display: initial;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    color: white;
+    font-size: 24px;
+}
+#lg-bag{
+    display: none;
+}
+#hero{
+    height: 70vh;
+    padding: 0 80px;
+    background-position: top 30% right 30%;
+    
+}
+#Feature{
+    justify-content: center;
+}
+#Feature .fe-box{
+    margin:15px 15px;
+}
+#product1 .pro-container{
+    justify-content: center;
+    
+    }
+    #product1 .pro{
+        margin:15px
+    }
+    
+    #sm-banner .banner-box{
+        min-width: 100%;
+        height: 30vh;
+    
+    }
+    #banner3{
+        padding: 0 40px;
+    }
+    #banner3 .banner-box{
+        width: 28%;
+    
+    }
+    
+    #Newsletter .form{
+        width: 70%;
+    
+    }
+    /* Contact Page */
+    #form-details{
+        padding: 40px;
+    }
+    #form-details form{
+        width: 50%;
+    }
+
+}
+
+/* MEDIA QUERY Small devices */
+@media (max-width:477px){
+    .section-p1{
+        padding: 20px;
+    }
+    #header{
+        padding: 10px 30px;
+        
+    }
+    #hero{
+        background-position: 55%;
+        padding:0 20px ;  
+        
+    }
+    h2{
+        font-size: 32px;
+    }
+    h1{
+        font-size: 38px;
+    }
+    #Feature .fe-box{
+        width: 155px;
+        margin:0 0 15px 0;
+    }
+    #Feature{
+        justify-content: space-between;
+    }
+    
+    #product1 .pro{
+        width: 100%;
+        }
+        
+    #banner{
+        height: 40vh;
+    }
+     #sm-banner .banner-box{
+        height: 40vh;
+    
+    }
+   #banner3{
+    padding: 0 20px;
+   }
+   #banner3 .banner-box{
+    width: 100%;
+   }
+   #Newsletter .form{
+    width: 100%;
+
+    }
+    #Newsletter{
+        padding: 40px 20px;
+    }
+    footer .copyright{
+        text-align: start;
+    }
+
+
+    /* Singleproduct page */
+    #prodetails{
+    display: flex;
+    flex-direction: column;
+    }
+
+    #prodetails .single-pro-image{
+    width: 100%;
+    margin-right: 0px;
+    }
+
+    #prodetails .single-pro-details{
+        width: 100%;
+        }
+
+
+
+    /* blog page */
+    #blog{
+        padding: 100px -20px 0 20px;
+    }
+
+    #blog .blog-box{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        
+    }
+    #blog .blog-img{
+        width: 100%;
+        margin-right: 0px;   
+        margin-bottom: 30px; 
+    }
+    #blog .blog-details{
+        width: 100%;
+    }
+    /* About Page */
+    #about-head{
+        flex-direction: column;
+    }
+    #about-head img{
+        width:100%;
+        margin-bottom:20px;
+    }
+    #about-head div{
+        padding-left: 0px;
+    }
+    #about-app .video{
+        width:100%;
+    }
+    /* Contact Page */
+        #contact-details{
+            flex-direction: column;
+        }
+        #contact-details .details{
+        width: 100%;
+        margin-bottom: 30px;
+        }
+        #contact-details .map{
+        width: 100%;
+        }
+        #form-details{
+            margin: 10px;
+            padding: 30px 10px;
+            flex-wrap: wrap;
+        }
+        #form-details form{
+        width: 100%;
+        margin-bottom: 30px;
+
+        }
+        
+
+    /* Cart Page */
+    #cart-add{
+        flex-direction: column;
+    }
+    #coupon{
+        width:100%;
+    }
+    #subtotal{
+        width:100%;
+        padding: 20px;
+    }
+
+
 }
